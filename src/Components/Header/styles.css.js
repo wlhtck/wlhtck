@@ -5,7 +5,7 @@ export const Header = styled.header`
   height: 100vh;
   min-height: 500px;
   width: 100%;
-  background: #161415 url(../images/header-background.jpg) no-repeat top center;
+  background: #161415 url(images/header-background.jpg) no-repeat top center;
   background-size: cover !important;
   text-align: center;
   overflow: hidden;

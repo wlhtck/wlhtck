@@ -28,7 +28,7 @@
     ]
   },
   "resume":{
-    "skillmessage":"Over the years I've worked on dozens of projects and likewise utilized dozens of different technologies. Below is a high level overview of the technologies I work with currently. The web is constantly evolving and therefore so are my technical skills and interests.",
+    "skillmessage":"Over the years I've worked on dozens of projects and utilized various different technologies. Below is a high level overview of the technologies I work with currently. The web is constantly evolving and therefore so are my technical skills and interests.",
     "experience": [
       {
         "header": "Work",
@@ -48,7 +48,7 @@
           "place":"Ambassador Software",
           "focus":"Software Engineer",
           "years":"April 2017 - November 2018",
-          "description":"Ambassador is the world-leading referral marketing software, running today's most popular referral programs. While working at Ambassador I worked to deliver unique features to enable marketing teams to fully leverage the power of their affiliates. Everything from dashboards to manage programs to web intetgrations to power the referral process."
+          "description":"Ambassador is the world-leading referral marketing software, running today's most popular referral programs. At Ambassador I delivered unique features to enable marketing teams to fully leverage the power of their affiliates. Everything from dashboards to manage programs to web intetgrations to power the referral process."
         },
         {
           "place":"MRM // McCann",
