@@ -1,0 +1,166 @@
+{
+  "main": {
+    "name":"Will Hitchcock",
+    "occupation":"Software Engineer",
+    "description": "During the week I write code, on the weekend I drop passes. 🏈",
+    "image":"profilepic.jpg",
+    "bio": "I'm a Senior Software Engineer, currently working with Fruit Street Health. I have worked on web projects across many different industries. Everything from tools for small start ups to websites for national brands like Coca Cola and Anheuser Busch. In my downtime I play flag football, video games and cook.",
+    "address":{
+      "city":"Detroit"
+    },
+    "resumedownload":"/resume.pdf",
+    "social":[
+      {
+        "name":"twitter",
+        "url":"http://twitter.com/wlhtck",
+        "className":"fa fa-twitter"
+      },
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/willhitchcock/",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"github",
+        "url":"http://github.com/wlhtck",
+        "className":"fa fa-github"
+      }
+    ]
+  },
+  "resume":{
+    "skillmessage":"Over the years I've worked on dozens of projects and likewise utilized dozens of different technologies. Below is a high level overview of the technologies I work with currently. The web is constantly evolving and therefore so are my technical skills and interests.",
+    "experience": [
+      {
+        "header": "Work",
+        "items": [{
+          "place": "Fruit Street Health",
+          "focus": "Software Engineer",
+          "years": "May 2020 - Present",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in nisl turpis. Aliquam aliquet rutrum turpis sit amet porta. Nulla sed tincidunt felis, non rhoncus."
+        },
+        {
+          "place": "StockX",
+          "focus":"Software Engineer",
+          "years":"November 2018 - May 2020",
+          "description":"StockX is a 'stock market of things' - a consumer marketplace (like eBay) which connects buyers and sellers using the exact same methods as the New York Stock Exchange. I worked across various areas of the main StockX website, with a focus on quality I worked with the team to increase test coverage and improve code quality across the application."
+        },
+        {
+          "place":"Ambassador Software",
+          "focus":"Software Engineer",
+          "years":"April 2017 - November 2018",
+          "description":"Ambassador is the world-leading referral marketing software, running today's most popular referral programs. While working at Ambassador I worked to deliver unique features to enable marketing teams to fully leverage the power of their affiliates. Everything from dashboards to manage programs to web intetgrations to power the referral process."
+        },
+        {
+          "place":"MRM // McCann",
+          "focus":"Interactive Developer",
+          "years":"October 2015 - April 2017",
+          "description":"MRM // McCann is a leading customer relationship agency that leverages the power of creativity, the beauty of data, and the magic of technology to nurture, encourage and sustain strong relationships between brands and their customers – in turn, creating meaningful experiences for people. At MRM I worked across several teams to support and develop web experiences for prominent brands including Coca-Cola, Anheuser Busch and General Motors."
+        },
+        {
+          "place":"CareTech Solutions",
+          "focus":"Web Application Developer",
+          "years":"January 2013 - October 2015",
+          "description":"CareTech Solutions is a full service IT service provider which services major hospital systems across the United States. While at CareTech Solutions I worked on software solutions that streamlined the business and IT processes for dozens of hospitals. Enabling hospitals to focus on care rather than administration."
+        }]
+      },
+      {
+        "header": "Volunteer",
+        "items": [{
+          "place": "Metro Detroit Flag Football League",
+          "focus": "Director of Technology",
+          "years": "June 2019 - Present",
+          "description": "The Metro Detroit Flag Football League (MDFFL) is an LGBT and straight allied flag football league, changing preconceived societal beliefs about sexual orientation and self-identification. I currently serve on the board of directors and oversee technology as a whole, this includes administering access to systems as well as developing and maintaining the current web presense."
+        }]
+      },
+      {
+        "header": "Education",
+        "items": [{
+          "place":"Baker College",
+          "focus":"Bachelor of Computer Science",
+          "years":"2013",
+          "description":""
+        }]
+      }
+    ],
+    "skills":[
+      {
+        "name":"HTML5",
+        "image": "html.svg"
+      },
+      {
+        "name":"CSS3",
+        "image": "css.svg"
+      },
+      {
+        "name": "JavaScript",
+        "image": "javascript.svg"
+      },
+      {
+        "name": "TypeScript",
+        "image": "typescript.svg"
+      },
+      {
+        "name":"ReactJS",
+        "image": "react.svg"
+      },
+      {
+        "name": "NodeJS",
+        "image": "nodejs.svg"
+      },
+      {
+        "name": "GraphQL",
+        "image": "graphql.svg"
+      },
+      {
+        "name":"Git",
+        "image": "git.svg"
+      }
+    ]
+  },
+  "portfolio":{
+    "projects": [
+      {
+        "title":"Canadian Wanderlust",
+        "category":"My Travel Blog for my post-university travels",
+        "image":"canadian-wanderlust.jpg",
+        "url":"https://www.canadianwanderlust.com"
+      },
+      {
+        "title":"Fury Fighting Gear",
+        "category":"(offline now) A fighting gear company I started",
+        "image":"fury-fighting-gear.jpg",
+        "url":"http://www.timbakerdev.com"
+      },
+      {
+        "title":"Original Thai Food",
+        "category":"Website I built for a restaurant I like in Thailand",
+        "image":"original-thai-food.jpg",
+        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
+      },
+      {
+        "title":"Resume Website",
+        "category":"A React based resume website template",
+        "image":"resume-website.jpg",
+        "url":"http://www.timbakerdev.com"
+      },
+      {
+        "title":"Smirkspace",
+        "category":"(MVP Only) A React and Meteor based chat University project.",
+        "image":"smirkspace.jpg",
+        "url":"http://www.smirkspace.com"
+      }
+    ]
+  },
+  "testimonials":{
+    "testimonials":[
+      {
+        "text":"Here you should write some nice things that someone has said about you. No lies though, employers can tell when you are lying.",
+        "user":"Kareem Abdul Jabbar"
+      },
+      {
+        "text":"That Tim Baker must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
+        "user":"Steve Wozniak... impersonator"
+      }
+    ]
+  }
+}
