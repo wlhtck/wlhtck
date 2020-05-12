@@ -8,7 +8,7 @@ import Resume from './Components/Resume/index';
 const App = () => (
   <div className="App">
     <Header 
-      name={resumeData.main.name}
+      header={resumeData.main.header}
       description={resumeData.main.description}
       social={resumeData.main.social}
     />

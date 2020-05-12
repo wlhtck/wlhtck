@@ -3,9 +3,11 @@ import { Row, Column } from '../styles.css';
 
 export const Resume = styled.section`
   background: #fff;
-  padding-top: 90px;
-  padding-bottom: 72px;
+  padding: 96px 0 66px;
   overflow: hidden;
+  @media only screen and (max-width: 767px) {
+    padding: 0px 0 33px;
+  }
 `;
 
 export const H1 = styled.h1`
@@ -17,6 +19,10 @@ export const H1 = styled.h1`
   padding-bottom: 6px;
   text-align: right;
   text-transform: uppercase;
+  @media only screen and (max-width: 767px) {
+    margin: 48px 0 33px;
+    align-self: flex-start;
+  }
 `;
 
 export const HeaderCol = styled(Column)`

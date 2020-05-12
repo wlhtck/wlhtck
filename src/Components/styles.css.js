@@ -25,7 +25,7 @@ export const Column = styled.div`
   ${({ justify = 'space-between' }) => `justify-content: ${justify}`};
   width: ${({ width }) => width * 100}%;
   @media only screen and (max-width: 767px) {
-    width: auto !important;
+    width: 100%;
     margin-left: 0;
     margin-right: 0;
     padding: 0 30px;

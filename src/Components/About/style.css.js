@@ -2,9 +2,11 @@ import styled from 'styled-components';
 
 export const About = styled.section`
   background: #2B2B2B;
-  padding-top: 96px;
-  padding-bottom: 66px;
+  padding: 96px 0 66px;
   overflow: hidden;
+  @media only screen and (max-width: 767px) {
+    padding: 48px 0 33px;
+  }
 `;
 
 export const H2 = styled.h2`
@@ -22,9 +24,9 @@ export const Headshot = styled.img`
   position: relative;
   border-radius: 100%;
   width: 100%;
-`;
-
-export const DownloadButtonWrapper = styled.div`
+  @media only screen and (max-width: 767px) {
+    margin-bottom: 46px;
+  }
 `;
 
 export const DownloadButton = styled.a`

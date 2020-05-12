@@ -37,6 +37,9 @@ export const H1 = styled.h1`
   letter-spacing: -2px;
   margin: 0 auto 18px auto;
   text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
+  @media only screen and (max-width: 767px) {
+    font: 56px/1.1em 'opensans-bold', sans-serif;
+  }
 `;
 
 export const H3 = styled.h3`

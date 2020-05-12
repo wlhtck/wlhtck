@@ -6,7 +6,7 @@ const AboutContainer = ({ headshot, bio, resumeDownload }) => (
   <About id="about">
     <Row>
       <Column width={3 / 12}>
-        <Headshot className="profile-pic"  src={headshot} alt="Will Hitchcock headshot" />
+        <Headshot src={headshot} alt="Will Hitchcock headshot" />
       </Column>
       <Column width={9 / 12}>
         <H2>About Me</H2>
