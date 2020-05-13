@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { Header, Banner, BannerText, H1, H3, Social, SocialItem, Scrolldown } from './styles.css';
 
 const HeaderContainer = ({ header, description, social }) => (

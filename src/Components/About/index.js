@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { About, H2, P, Headshot, DownloadButton, DownloadIcon } from './style.css';
 import { Row, Column } from '../styles.css';
 

@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import resumeData from './resumeData';
 import Header from './Components/Header/index';
 import About from './Components/About/index';

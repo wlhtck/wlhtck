@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import Experience from './Experience';
-import { Resume, H1, HeaderCol, MainCol, SkillHeader, BarExpand, Bar, Bars } from './styles.css';
+import { Resume, H1, HeaderCol, MainCol, SkillHeader } from './styles.css';
 import { Row, Column } from '../styles.css';
 
 const Image = styled.img`
