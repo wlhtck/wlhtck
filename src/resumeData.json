@@ -4,7 +4,7 @@
     "occupation":"Software Engineer",
     "description": "During the week I write code, on the weekend I drop passes. 🏈",
     "image":"profilepic.jpg",
-    "bio": "I'm a Senior Software Engineer, currently working with Fruit Street Health. I have worked on web projects across many different industries. Everything from tools for small start ups to websites for national brands like Coca Cola and Anheuser Busch. In my downtime I play flag football, video games and cook.",
+    "bio": "I'm a Software Engineer, currently working with Fruit Street Health. I have worked on web projects across many different industries. Everything from tools for small start ups to websites for national brands like Coca Cola and Anheuser Busch. In my downtime I play flag football, video games and cook.",
     "address":{
       "city":"Detroit"
     },
@@ -36,7 +36,7 @@
           "place": "Fruit Street Health",
           "focus": "Software Engineer",
           "years": "May 2020 - Present",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in nisl turpis. Aliquam aliquet rutrum turpis sit amet porta. Nulla sed tincidunt felis, non rhoncus."
+          "description": "Working with Fruit Street health to develop a next generation telemedicine platform to help evolve the health care industry. Currently working on CovidMD to help prevent the spread of the deadly COVID-19 pandemic."
         },
         {
           "place": "StockX",
