@@ -13,7 +13,7 @@ const AboutContainer = ({ headshot, bio, resumeDownload }) => (
 
         <P>{bio}</P>
           <div>
-            <DownloadButton target="_blank" href={resumeDownload}>
+            <DownloadButton target="_blank" rel="noopener noreferrer" href={resumeDownload}>
               <DownloadIcon className="fa fa-download"/>Download Resume
             </DownloadButton>
           </div>

@@ -9,7 +9,9 @@ const HeaderContainer = ({ header, description, social }) => (
         <H3>{description}</H3>
         <Social>
           {social.map(({ name, url, className }) => (
-            <SocialItem key={name}><a href={url}><i className={className} /></a></SocialItem>
+            <SocialItem key={name}>
+              <a href={url} target="_blank" rel="noopener noreferrer"><i className={className} /></a>
+            </SocialItem>
           ))}
         </Social>
       </BannerText>
