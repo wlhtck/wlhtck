@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const About = styled.section`
-  background: #2B2B2B;
+  background: ${({ theme }) => theme.colors.jet};
   padding: 96px 0 66px;
   overflow: hidden;
   @media only screen and (max-width: 767px) {
@@ -11,13 +11,13 @@ export const About = styled.section`
 
 export const H2 = styled.h2`
   font: 22px/30px 'opensans-bold', sans-serif;
-  color: #fff;
+  color: ${({ theme }) => theme.colors.ghost};
   margin-bottom: 12px;
 `;
 
 export const P = styled.p`
   line-height: 30px;
-  color: #7A7A7A;
+  color: ${({ theme }) => theme.colors.quicksilver};
 `;
 
 export const Headshot = styled.img`
@@ -30,10 +30,10 @@ export const Headshot = styled.img`
 `;
 
 export const DownloadButton = styled.a`
-  background: #444;
+  background: ${({ theme }) => theme.colors.onyx};
   border: none;
   border-radius: 3px;
-  color: #fff;
+  color: ${({ theme }) => theme.colors.ghost};
   cursor: pointer;
   display: inline-block;
   font: 16px/30px 'opensans-bold', sans-serif;
@@ -45,8 +45,8 @@ export const DownloadButton = styled.a`
   text-decoration: none;
   transition: all .2s ease-in-out;
   &:hover {
-    background: #fff;
-    color: #2B2B2B;
+    background: ${({ theme }) => theme.colors.ghost};
+    color: ${({ theme }) => theme.colors.jet};
   }
 `;
 

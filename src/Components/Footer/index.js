@@ -19,7 +19,7 @@ const FooterContainer = ({ social }) => (
         <Copyright>
           <CopyrightItem>&copy; Copyright 2020 Will Hitchcock</CopyrightItem>
           <CopyrightItem>
-            Design by <A title="Styleshout" href="http://www.styleshout.com/">Styleshout</A>
+            Design by <A target="_blank" title="Styleshout" href="http://www.styleshout.com/">Styleshout</A>
           </CopyrightItem>
         </Copyright>
 

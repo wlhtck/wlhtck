@@ -2,20 +2,21 @@ import styled from 'styled-components';
 
 export const Footer = styled.footer`
   padding-top: 48px;
-  margin-bottom: 48px;
-  color: #525252;
+  padding-bottom: 48px;
+  background-color: ${({ theme }) => theme.colors.jet};
+  color: ${({ theme }) => theme.colors.quicksilver};
   font-size: 14px;
   text-align: center;
   position: relative;
 `;
 
 export const A = styled.a`
-  color: #fff; 
+  color: ${({ theme }) => theme.colors.ghost}; 
   &:visited {
-    color: #fff; 
+    color: ${({ theme }) => theme.colors.ghost}; 
   }
   &:hover, &:focus {
-    color: #fff;
+    color: ${({ theme }) => theme.colors.ghost};
   }
 
 `
@@ -34,10 +35,7 @@ export const CopyrightItem = styled.li`
     content: "\2022";
     padding-left: 10px;
     padding-right: 10px;
-    color: #095153;
-    &:first-child {
-      display: none;
-    }
+    color: ${({ theme }) => theme.colors.jet};
   }
 `;
 
@@ -68,13 +66,14 @@ export const GoTop = styled.a`
   display: block;
   width: 60px;
   height: 60px;
-  background-color: #525252;
+  background-color: ${({ theme }) => theme.colors.onyx};
   transition: all 0.2s ease-in-out;
-  color: #fff;
+  color: ${({ theme }) => theme.colors.ghost};
   font-size: 21px;
   line-height: 60px;
   border-radius: 100%;
   &:hover {
-    background-color: #0F9095;
+    background-color: ${({ theme }) => theme.colors.yale};
+    color: ${({ theme }) => theme.colors.ghost};
   }
 `;
