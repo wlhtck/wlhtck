@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import { Row, Column } from '../styles.css';
 
 export const Resume = styled.section`
-  background: #fff;
+  background: ${({ theme }) => theme.colors.ghost};
   padding: 96px 0 66px;
   overflow: hidden;
   @media only screen and (max-width: 767px) {
@@ -11,7 +11,7 @@ export const Resume = styled.section`
 `;
 
 export const H1 = styled.h1`
-  border-bottom: 3px solid #11ABB0;
+  border-bottom: 5px solid ${({ theme }) => theme.colors.yale};
   display: inline-flex;
   align-self: flex-end;
   font: 18px/24px 'opensans-bold', sans-serif;
@@ -37,7 +37,7 @@ export const MainCol = styled(Column)`
 export const Section = styled(Row)`
   margin-bottom: 48px;
   padding-bottom: 24px;
-  border-bottom: 1px solid #E8E8E8;
+  border-bottom: 1px solid ${({ theme }) => theme.colors.ghost};
 `;
 
 export const BulletSpan = styled.span`
@@ -49,24 +49,9 @@ export const Date = styled.em`
   font: 15px/24px 'opensans-regular', sans-serif;
 `;
 
-export const Bars = styled.div`
-  float: left;
-  padding: 0;
-  text-align: left;
-  width: 95%;
-`
-
-export const Bar = styled.li`
-  position: relative;
-  margin-bottom: 60px;
-  background: #ccc;
-  height: 42px;
-  border-radius: 3px;
-`;
-
 export const SkillHeader = styled.em`
   font: 15px 'opensans-bold', sans-serif;
-  color: #313131;
+  color: ${({ theme }) => theme.colors.onyx};
   text-transform: uppercase;
   letter-spacing: 2px;
   font-weight: normal;

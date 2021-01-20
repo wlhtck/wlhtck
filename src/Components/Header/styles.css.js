@@ -5,7 +5,7 @@ export const Header = styled.header`
   height: 100vh;
   min-height: 500px;
   width: 100%;
-  background: #161415 url(images/header-background.jpg) no-repeat top center;
+  background: ${({ theme }) => theme.colors.jet} url(images/header-background.jpg) no-repeat top center;
   background-size: cover !important;
   text-align: center;
   overflow: hidden;
@@ -33,7 +33,7 @@ export const BannerText = styled.div`
 
 export const H1 = styled.h1`
   font: 90px/1.1em 'opensans-bold', sans-serif;
-  color: #fff;
+  color: ${({ theme }) => theme.colors.ghost};
   letter-spacing: -2px;
   margin: 0 auto 18px auto;
   text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
@@ -44,7 +44,7 @@ export const H1 = styled.h1`
 
 export const H3 = styled.h3`
   font: 18px/1.9em 'opensans-regular', serif;
-  color: #fff;
+  color: ${({ theme }) => theme.colors.ghost};
   margin: 0 auto;
   width: 70%;
   text-shadow: 0px 1px 2px rgba(0, 0, 0, .5);
@@ -78,6 +78,6 @@ export const Scrolldown = styled.a`
 
   transition: all .3s ease-in-out;
   &:hover {
-    color: #11ABB0;
+    color: ${({ theme }) => theme.colors.yale};
   }
 `;
