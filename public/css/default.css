@@ -730,3 +730,6 @@ properly.
   text-align: center !important;
 }
 
+.calendly-popup-content.calendly-mobile {
+  overflow: hidden;
+}
