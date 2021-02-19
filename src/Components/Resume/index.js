@@ -27,7 +27,7 @@ const ResumeContainer = ({ skills, skillmessage, experience }) => (
         <p>{skillmessage}</p>
         <Row>
           {skills.map(({ name, image }) => (
-            <Column width={3 / 12} justify="flex-end">
+            <Column key={name} width={3 / 12} justify="flex-end">
               <Image src={`images/${image}`} alt={name} />
               <SkillHeader>{name}</SkillHeader>
             </Column>

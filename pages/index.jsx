@@ -1,11 +1,11 @@
 import React from 'react';
 import { ThemeProvider } from 'styled-components'
-import theme from './theme'
-import resumeData from './resumeData';
-import Header from './Components/Header/index';
-import About from './Components/About/index';
-import Footer from './Components/Footer/index';
-import Resume from './Components/Resume/index';
+import theme from '../src/theme'
+import resumeData from '../src/resumeData.json';
+import Header from '../src/Components/Header/index';
+import About from '../src/Components/About/index';
+import Footer from '../src/Components/Footer/index';
+import Resume from '../src/Components/Resume/index';
 
 const App = () => (
   <ThemeProvider theme={theme}>
