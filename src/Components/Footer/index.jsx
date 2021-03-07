@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import React  from 'react';
 import { Footer, A, Copyright, CopyrightItem, SocialLink, SocialLinkList, GoTop } from './styles.css'
 import { Row, Column } from '../styles.css';

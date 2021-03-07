@@ -2,6 +2,7 @@ import React from 'react';
 import { About, H2, P, Headshot, DownloadButton, DownloadIcon } from './style.css';
 import { Row, Column } from '../styles.css';
 
+// eslint-disable-next-line react/prop-types
 const AboutContainer = ({ headshot, bio, resumeDownload }) => (
   <About id="about">
     <Row>
