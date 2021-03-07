@@ -4,7 +4,7 @@
 
 - 📫 Professional inquiries: **will@wlhtck.io**
 
-- 📄 Resume: [wlhtck.io/resume.pdf](https://www.wlhtck.io/resume.pdf)
+- 📄 Resume: [wlhtck.io/resume.pdf](https://wlhtck.io/resume.pdf)
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
