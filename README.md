@@ -1,6 +1,6 @@
 <h1 align="center">Hi 👋, I'm Will Hitchcock</h1>
 <h3 align="center">React engineer from Michigan</h3>
-<p>I'm a Software Engineer, currently working with SponOn Transact. I have worked on web projects across many different industries. Everything from tools for small start ups to websites for national brands like Coca Cola and Anheuser Busch. In my downtime I play flag football, video games and cook.</p>
+<p>I'm a Software Engineer, currently working with <a href="https://spoton.com">SponOn</a>. I have worked on web projects across many different industries. Everything from tools for small start ups to websites for national brands like Coca Cola and Anheuser Busch. In my downtime I play flag football, video games and cook.</p>
 
 - 📫 Professional inquiries: **will@wlhtck.io**
 
