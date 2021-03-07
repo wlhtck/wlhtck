@@ -2,11 +2,9 @@
 <h3 align="center">React engineer from Michigan</h3>
 <p>I'm a Software Engineer, currently working with SponOn Transact. I have worked on web projects across many different industries. Everything from tools for small start ups to websites for national brands like Coca Cola and Anheuser Busch. In my downtime I play flag football, video games and cook.</p>
 
-- 💬 Ask me about **React, JavaScript, TypeScript, Chakra-UI**
+- 📫 Professional inquiries: **will@wlhtck.io**
 
-- 📫 How to reach me **will@wlhtck.io**
-
-- 📄 Know about my experiences [wlhtck.io/resume.pdf](wlhtck.io/resume.pdf)
+- 📄 Resume: [wlhtck.io/resume.pdf](wlhtck.io/resume.pdf)
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
