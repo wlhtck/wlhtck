@@ -1,9 +1,14 @@
-import React from 'react';
+import React, { FC } from 'react';
 import { About, H2, P, Headshot, DownloadButton, DownloadIcon } from './style.css';
 import { Row, Column } from '../styles.css';
 
-// eslint-disable-next-line react/prop-types
-const AboutContainer = ({ headshot, bio, resumeDownload }) => (
+interface AboutContainerProps {
+  headshot: string;
+  bio: string;
+  resumeDownload: string;
+}
+
+const AboutContainer: FC<AboutContainerProps> = ({ headshot, bio, resumeDownload }) => (
   <About id="about">
     <Row>
       <Column width={3 / 12}>

@@ -1,13 +1,19 @@
 {
   "ignorePatterns": ["node_modules/*", ".next/*", ".out/*", "build/*"],
   "extends": [
-    "airbnb",
+    "airbnb-typescript",
     "plugin:jsx-a11y/recommended",
     "prettier",
     "prettier/react"
   ],
+  "parserOptions": {
+    "project": "./tsconfig.json",
+  },
   "plugins": [
     "jsx-a11y",
     "prettier"
-  ]
+  ],
+  "rules": {
+    "react/prop-types": [0]
+  }
 }

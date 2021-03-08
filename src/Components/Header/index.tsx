@@ -1,7 +1,14 @@
-import React from 'react';
+import React, { FC } from 'react';
 import { Header, Banner, BannerText, H1, H3, Social, SocialItem, Scrolldown } from './styles.css';
+import { SocialType } from '../../../types/social';
 
-const HeaderContainer = ({ header, description, social }) => (
+interface HeaderContainerProps {
+  header: string;
+  description: string;
+  social: SocialType[];
+}
+
+const HeaderContainer: FC<HeaderContainerProps> = ({ header, description, social }) => (
   <Header id="home">
     <Banner>
       <BannerText>
