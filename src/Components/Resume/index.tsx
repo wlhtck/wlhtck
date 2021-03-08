@@ -13,10 +13,10 @@ const Image = styled.img`
 interface ResumeContainerProps {
   skills: SkillType[];
   skillmessage: string;
-  experience: [{
+  experience: {
     header: string;
     items: ExperienceType[];
-  }]
+  }[];
 }
 
 const ResumeContainer: FC<ResumeContainerProps> = ({ skills, skillmessage, experience }) => (

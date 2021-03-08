@@ -1,6 +1,6 @@
 import React from 'react';
-import { ThemeProvider } from 'styled-components'
-import theme from '../src/theme'
+import { ThemeProvider } from 'styled-components';
+import theme from '../src/theme';
 import resumeData from '../src/resumeData.json';
 import Header from '../src/Components/Header/index';
 import About from '../src/Components/About/index';
