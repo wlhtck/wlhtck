@@ -18,8 +18,7 @@ export const A = styled.a`
   &:hover, &:focus {
     color: ${({ theme }) => theme.colors.ghost};
   }
-
-`
+`;
 
 export const Copyright = styled.ul`
   margin: 0;

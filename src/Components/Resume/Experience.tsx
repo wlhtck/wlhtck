@@ -1,9 +1,16 @@
-import React from 'react';
+import React, { FC } from 'react';
 import { BulletSpan, Date, Section, HeaderCol, H1, MainCol } from './styles.css';
+import { ExperienceType } from '../../../types/experience';
 
 const Bullet = () => <BulletSpan>&bull;</BulletSpan>;
 
-const Experience = ({ header, items }) => (
+
+interface ExperienceProps {
+  header: string;
+  items: ExperienceType[];
+}
+
+const Experience: FC<ExperienceProps> = ({ header, items }) => (
   <Section>
     <HeaderCol width={3 / 12}>
       <H1>{header}</H1>

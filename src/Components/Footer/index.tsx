@@ -1,9 +1,14 @@
-/* eslint-disable react/prop-types */
-import React  from 'react';
-import { Footer, A, Copyright, CopyrightItem, SocialLink, SocialLinkList, GoTop } from './styles.css'
+import React, { FC }  from 'react';
+import { Footer, A, Copyright, CopyrightItem, SocialLink, SocialLinkList, GoTop } from './styles.css';
 import { Row, Column } from '../styles.css';
+import { SocialType } from '../../../types/social';
 
-const FooterContainer = ({ social }) => (
+
+interface FooterContainerProps {
+  social: SocialType[];
+}
+
+const FooterContainer: FC<FooterContainerProps> = ({ social }) => (
   <Footer>
     <Row>
       <Column width={1}>

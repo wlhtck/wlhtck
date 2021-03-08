@@ -1,14 +1,25 @@
-import React from 'react';
+import React, { FC } from 'react';
 import styled from 'styled-components';
 import Experience from './Experience';
 import { Resume, H1, HeaderCol, MainCol, SkillHeader } from './styles.css';
 import { Row, Column } from '../styles.css';
+import { ExperienceType } from '../../../types/experience';
+import { SkillType } from '../../../types/skill';
 
 const Image = styled.img`
   width: 100%;
 `;
 
-const ResumeContainer = ({ skills, skillmessage, experience }) => (
+interface ResumeContainerProps {
+  skills: SkillType[];
+  skillmessage: string;
+  experience: {
+    header: string;
+    items: ExperienceType[];
+  }[];
+}
+
+const ResumeContainer: FC<ResumeContainerProps> = ({ skills, skillmessage, experience }) => (
   <Resume id="resume">
     {experience.map(({ header, items }) => (
       <Experience
