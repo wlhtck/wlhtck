@@ -1,10 +1,10 @@
 {
   "main": {
     "header":"Will Hitchcock",
-    "occupation":"Software Engineer",
+    "occupation":"Technical Lead",
     "description": "During the week I write code, on the weekend I drop passes. 🏈",
     "image":"profilepic.jpg",
-    "bio": "I'm a Software Engineer, currently working with Fruit Street Health. I have worked on web projects across many different industries. Everything from tools for small start ups to websites for national brands like Coca Cola and Anheuser Busch. In my downtime I play flag football, video games and cook.",
+    "bio": "I'm a Software Engineer, currently working with SpotOn. I have worked on web projects across many different industries. Everything from tools for small start ups to websites for national brands like Coca Cola and Anheuser Busch. In my downtime I play flag football, video games and cook.",
     "address":{
       "city":"Detroit"
     },
@@ -33,10 +33,15 @@
       {
         "header": "Work",
         "items": [{
+          "place": "SpotOn",
+          "focus": "Tech Lead",
+          "years": "Mar 2021 - Present",
+          "description": "SpotOn’s mission is to give small and midsize businesses a fighting chance, providing innovative software and payment solutions, supported by local and personal service, and delivered at a fair price. At SpotOn I am the technical lead for online ordering and am responsible for all aspects of application development."
+        },{
           "place": "Fruit Street Health",
           "focus": "Software Engineer",
-          "years": "May 2020 - Present",
-          "description": "Working with Fruit Street health to develop a next generation telemedicine platform to help evolve the health care industry. Currently working on CovidMD to help prevent the spread of the deadly COVID-19 pandemic."
+          "years": "May 2020 - Mar 2021",
+          "description": "Fruit Street Clinic is an unparalleled telemedicine platform helping patients to stay healthy, safe, and informed. At Fruit Street I worked to deliver a modern web application to enable a fantastic patient experience."
         },
         {
           "place": "StockX",
