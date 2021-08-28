@@ -1,10 +1,10 @@
 {
   "main": {
     "header":"Will Hitchcock",
-    "occupation":"Software Engineer",
+    "occupation":"Technical Lead",
     "description": "During the week I write code, on the weekend I drop passes. 🏈",
     "image":"profilepic.jpg",
-    "bio": "I'm a Software Engineer, currently working with Fruit Street Health. I have worked on web projects across many different industries. Everything from tools for small start ups to websites for national brands like Coca Cola and Anheuser Busch. In my downtime I play flag football, video games and cook.",
+    "bio": "I'm a Software Engineer, currently working with SpotOn. I have worked on web projects across many different industries. Everything from tools for small start ups to websites for national brands like Coca Cola and Anheuser Busch. In my downtime I play flag football, video games and cook.",
     "address":{
       "city":"Detroit"
     },
@@ -33,33 +33,38 @@
       {
         "header": "Work",
         "items": [{
+          "place": "SpotOn",
+          "focus": "Tech Lead",
+          "years": "Mar 2021 - Present",
+          "description": "SpotOn’s mission is to give small and midsize businesses a fighting chance, providing innovative software and payment solutions, supported by local and personal service, and delivered at a fair price. At SpotOn I am the technical lead for online ordering and am responsible for all aspects of application development."
+        },{
           "place": "Fruit Street Health",
-          "focus": "Software Engineer",
-          "years": "May 2020 - Present",
-          "description": "Working with Fruit Street health to develop a next generation telemedicine platform to help evolve the health care industry. Currently working on CovidMD to help prevent the spread of the deadly COVID-19 pandemic."
+          "focus": "Senior Software Engineer",
+          "years": "May 2020 - Mar 2021",
+          "description": "Fruit Street Clinic is an unparalleled telemedicine platform helping patients to stay healthy, safe, and informed. At Fruit Street I worked to deliver a modern web application to enable a fantastic patient experience."
         },
         {
           "place": "StockX",
-          "focus":"Software Engineer",
-          "years":"November 2018 - May 2020",
+          "focus": "Senior Software Engineer",
+          "years": "November 2018 - May 2020",
           "description":"StockX is a 'stock market of things' - a consumer marketplace (like eBay) which connects buyers and sellers using the exact same methods as the New York Stock Exchange. I worked across various areas of the main StockX website, with a focus on quality, I worked with the team to increase test coverage and improve code quality across the application."
         },
         {
-          "place":"Ambassador Software",
-          "focus":"Software Engineer",
-          "years":"April 2017 - November 2018",
+          "place": "Ambassador Software",
+          "focus": "Software Engineer",
+          "years": "April 2017 - November 2018",
           "description":"Ambassador is the world-leading referral marketing software, running today's most popular referral programs. At Ambassador I delivered unique features to enable marketing teams to fully leverage the power of their affiliates. Everything from dashboards to manage programs to web integrations to power the referral process."
         },
         {
-          "place":"MRM // McCann",
-          "focus":"Interactive Developer",
-          "years":"October 2015 - April 2017",
+          "place": "MRM // McCann",
+          "focus": "Interactive Developer",
+          "years": "October 2015 - April 2017",
           "description":"MRM // McCann is a leading customer relationship agency that leverages the power of creativity, the beauty of data, and the magic of technology to nurture, encourage and sustain strong relationships between brands and their customers – in turn, creating meaningful experiences for people. At MRM I worked across several teams to support and develop web experiences for prominent brands including Coca-Cola, Anheuser Busch and General Motors."
         },
         {
-          "place":"CareTech Solutions",
-          "focus":"Web Application Developer",
-          "years":"January 2013 - October 2015",
+          "place": "CareTech Solutions",
+          "focus": "Web Application Developer",
+          "years": "January 2013 - October 2015",
           "description":"CareTech Solutions is a full service IT service provider which services major hospital systems across the United States. While at CareTech Solutions I worked on software solutions that streamlined the business and IT processes for dozens of hospitals. Enabling hospitals to focus on care rather than administration."
         }]
       },
@@ -68,7 +73,7 @@
         "items": [{
           "place": "Metro Detroit Flag Football League",
           "focus": "Director of Technology",
-          "years": "June 2019 - Present",
+          "years": "June 2019 - September 2021",
           "description": "The Metro Detroit Flag Football League (MDFFL) is an LGBT and straight allied flag football league, changing preconceived societal beliefs about sexual orientation and self-identification. I currently serve on the board of directors and oversee technology as a whole, this includes administering access to systems as well as developing and maintaining the current web presence."
         }]
       },
