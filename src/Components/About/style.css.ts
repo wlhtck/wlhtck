@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import Image from 'next/image';
 
 export const About = styled.section`
   background: ${({ theme }) => theme.colors.jet};
@@ -20,7 +21,7 @@ export const P = styled.p`
   color: ${({ theme }) => theme.colors.quicksilver};
 `;
 
-export const Headshot = styled.img`
+export const Headshot = styled(Image)`
   position: relative;
   border-radius: 100%;
   width: 100%;

@@ -12,7 +12,7 @@ const AboutContainer: FC<AboutContainerProps> = ({ headshot, bio, resumeDownload
   <About id="about">
     <Row>
       <Column width={3 / 12}>
-        <Headshot src={headshot} alt="Will Hitchcock headshot" />
+        <Headshot src={headshot} alt="Will Hitchcock headshot" sizes="(max-width: 768px) 100vw, 25vw" />
       </Column>
       <Column width={9 / 12}>
         <H2>About Me</H2>
